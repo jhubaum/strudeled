@@ -1,3 +1,8 @@
+// Wavering Synths
+//
+// I wanted to build a synth wave track but didn't find good instruments 
+// (neither in their individual sounds nor as a whole)
+
 setcpm(90/4)
 $: note("<f2 g#2 c3 a#2>*2".add("-12")).ply(8).sound("gm_synth_bass_2").lpf(400).gain(1.5)
   .attack(0.1).decay(0.15).sustain(.65).release(0.0).distort(3)
